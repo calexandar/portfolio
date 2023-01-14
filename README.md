@@ -1,42 +1,14 @@
-# Nuxt 3 Minimal Starter
+# My portfolio website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+I started exploring NuxtJS and fell in love :) So I made my personal website with it.
 
-## Setup
+## You can visit it
 
-Make sure to install the dependencies:
+Link: http://alex-web.mk
 
-```bash
-# yarn
-yarn install
 
-# npm
-npm install
+## Development tehnologies
 
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+*NuxtJS
+*Vue.JS
+*TailwindCSS
