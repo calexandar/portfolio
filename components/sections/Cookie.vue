@@ -33,7 +33,7 @@ onMounted(()=>{
 defineNuxtPlugin((app)=>{
     app.vueApp.use(VueGtag, {
         property:{
-            id: 'G-N6KY4K5FLY',
+            id: process.env.GOOGLE_ANALYTICS_ID,
             isEnabled: false,
         }
     })
