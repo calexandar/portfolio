@@ -14,7 +14,7 @@
 import TheNavbar from './components/sections/TheNavbar.vue';
 import Cookie from './components/sections/Cookie.vue';
 
-const images = import.meta.glob("./assets/img/*.{png,svg,ico}", {as: 'url', eager: true});
+const images = import.meta.glob("./assets/img/*.{jpg,png,svg,ico}", {as: 'url', eager: true});
 
 useHead({
   title:'Aleksandar Cvetanovski:Developer, Web Designer, Learner',
@@ -42,7 +42,7 @@ useHead({
     },
     {
       name:"twitter:image",
-      content:images['./assets/img/first_logo.png']
+      content:images['./assets/img/twiter_image.jpg']
     },
     {
       property:"og:url",
@@ -58,7 +58,7 @@ useHead({
     },
     {
       property:"og:image",
-      content:images['./assets/img/first_logo.png']
+      content:images['./assets/img/twiter_image.jpg']
     }
   ],
   link: [
