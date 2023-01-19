@@ -6,12 +6,13 @@
 </NuxtLayout>
 <Teleport to="body">
   <TheNavbar/>
-  <!-- <CookiesNotification/> -->
+  <Cookie/>
 </Teleport>
 </template>
 
 <script setup>
 import TheNavbar from './components/sections/TheNavbar.vue';
+import Cookie from './components/sections/Cookie.vue';
 
 const images = import.meta.glob("./assets/img/*.{png,svg,ico}", {as: 'url', eager: true});
 useHead({

@@ -4,9 +4,10 @@ export default defineNuxtConfig({
             '@nuxtjs/tailwindcss',
             '@pinia/nuxt',
       ],
-      css: [
-            '@/assets/css/tailwind.css'
-      ],
+      tailwindcss: {
+            cssPath: '~/assets/css/tailwind.css',
+            configPath: '~/tailwind.config.js',
+      },
       components: [{
             path: '~/components', pathPrefix: false,
       }],
