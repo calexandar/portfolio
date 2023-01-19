@@ -15,8 +15,10 @@ import TheNavbar from './components/sections/TheNavbar.vue';
 import Cookie from './components/sections/Cookie.vue';
 
 const images = import.meta.glob("./assets/img/*.{png,svg,ico}", {as: 'url', eager: true});
+
 useHead({
   title:'Aleksandar Cvetanovski:Developer, Web Designer, Learner',
+
   meta: [
     {
       name:'description',
