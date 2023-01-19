@@ -34,7 +34,7 @@ useHead({
     },
     {
       name:"twitter:title",
-      content:"Alexandar Cvetanovski: Laravel and NuxtJs Developer"
+      content:"Alexandar Cvetanovski: Developer, Web Designer, Learner"
     },
     {
       name:"twitter:description",
@@ -50,7 +50,7 @@ useHead({
     },
     {
       property:"og:title",
-      content:"Alexandar Cvetanovski: Laravel and NuxtJs Developer"
+      content:"Alexandar Cvetanovski: Developer, Web Designer, Learner"
     },
     {
       property:"og:description",
