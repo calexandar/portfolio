@@ -18,6 +18,9 @@ const images = import.meta.glob("./assets/img/*.{jpg,png,svg,ico}", {as: 'url', 
 
 useHead({
   title:'Aleksandar Cvetanovski:Developer, Web Designer, Learner',
+  htmlAttrs:{
+    lang: "en"
+  },
 
   meta: [
     {

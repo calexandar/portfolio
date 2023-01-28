@@ -9,7 +9,7 @@
         class="flex items-start"
         to="/"
     >
-    <img :src="Logo" class="object-scale-down h-8 w-96  "/>
+    <img :src="Logo" alt="AlexWeb Logo" class="object-scale-down h-8 w-96  "/>
     </NuxtLink>
     <div class="flex text-sm items-center gap-1 sm:gap-2">
       <NavbarItem to="/">
